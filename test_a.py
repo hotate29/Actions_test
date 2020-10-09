@@ -1,4 +1,4 @@
-from main.a import f
+import a
 
 def test_a():
-  assert f() == 1
+  assert a.f() == 1
