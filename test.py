@@ -1,5 +1,4 @@
-import pytest
-import a
+from a import f
 
 def test_a():
-  assert a.f() == 1
+  assert f() == 1
